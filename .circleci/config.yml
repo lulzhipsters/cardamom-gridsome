@@ -17,7 +17,7 @@ jobs: # a collection of steps
             - ./node_modules
       - run: # run build
           name: test
-          command: npm build
+          command: npm run build
       - store_artifacts:
           path: /dist
           destination: dist
